@@ -11,7 +11,7 @@ a remote NTP server and request information about the current time.
 
 ## Querying the current time
 
-If all you care about is the current time according to a remote NTP server,
+If all you care about is the current time according to a remote NTP server,1
 simply use the `Time` function:
 ```go
 time, err := ntp.Time("0.beevik-ntp.pool.ntp.org")
